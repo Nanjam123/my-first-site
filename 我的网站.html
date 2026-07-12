@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>我的导航站</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+            text-align: center;
+        }
+        .box {
+            background: rgba(255,255,255,0.15);
+            padding: 50px 60px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        h1 { font-size: 36px; margin-bottom: 10px; }
+        p { font-size: 18px; opacity: 0.9; }
+        a {
+            display: inline-block;
+            margin: 8px 0;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+        a:hover {
+            background: rgba(255,255,255,0.4);
+        }
+        .links { margin-top: 30px; }
+        .footer { margin-top: 30px; font-size: 14px; opacity: 0.6; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>📚 我的资源导航</h1>
+        <p>精选实用链接，点击直达</p>
+        <div class="links">
+            <a href="https://www.baidu.com" target="_blank">🔍 百度</a><br>
+            <a href="https://www.bilibili.com" target="_blank">📺 B站</a><br>
+            <a href="https://www.deepl.com/translator" target="_blank">🌐 DeepL翻译</a>
+            <a href="https://www.deepseek.com" target="_blank">🤖 DeepSeek</a><br>
+            <a href="https://www.doubao.com" target="_blank">🎨 豆包 AI</a><br>
+            <a href="https://www.midjourney.com" target="_blank">🖼️ Midjourney 绘画</a><br>
+        </div>
+        <div class="footer">持续更新中...</div>
+    </div>
+</body>
+</html>
